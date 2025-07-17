@@ -8,6 +8,7 @@
     "wdth" 100;
 }
 /*  shared style */ 
+
             .text-primary{
                 color: chocolate ;
 
@@ -131,7 +132,8 @@
             .about{
                 padding: 130px 150px;
                 text-align: center;
-                align-items: center;
+
+                
                 
                 
 
@@ -200,6 +202,12 @@ footer{
     margin-bottom: 30px;
     border: none;
     
+}
+/* responsive style */
+@media screen and (max-width:576px) {
+    .skills-container .resume-container footer{
+        flex-direction: column;
+    }
 }
 
 
